@@ -17,7 +17,7 @@ describe './lib/greeting.rb' do
 
       output = capture_puts{ greeting("Sally") }
 
-      expect(output).to include("Hello Sally. It's nice to meet you.")
+      expect(output).to include("Hello Sally.       It's nice to meet you.")
     end
 
     it 'greets the person with additional whitespace removed' do
